@@ -1,0 +1,70 @@
+#nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 80px;
+    }
+        
+    #nav li {
+        display: inline;
+    }
+    
+    #nav a {
+        text-decoration: none;
+        font-family: Cambria, serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: normal;
+        letter-spacing: normal;
+        line-height: 1.3em;
+        color: #596365;
+    }
+    
+    #nav a:hover {
+        text-decoration: none;
+        font-family: Cambria, serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: normal;
+        letter-spacing: normal;
+        line-height: 1.3em;
+        color: #000;
+    }
+    Thanks in advanced,
+    
+    Chris
+    
+    
+    
+    
+    created
+    Aug '11
+    last reply
+    Oct '14
+    4
+    replies
+    102k
+    views
+    3
+    users
+    1
+    link
+    
+    
+    Report Advertisement
+    
+    ralphm
+    Aug '11
+    Hi Chris. There are various ways, such as this:
+    
+    #nav li {
+      display: inline;
+      [COLOR="Red"]padding-right: 30px;[/COLOR]
+    }
+    
+    
+    
+   
